@@ -1,0 +1,15 @@
+<div class="main">
+  <label for="">Enter your name: </label>
+  <div class="input-set">
+    <input type="text" [(ngModel)]="name" id="name" />
+    <button class="btn-clear" (click)="buttonClear()">X</button>
+  </div>
+  <p>{{ name }}</p>
+  <div class="btns">
+    <button class="my-btn" (click)="buttonClick()">Add</button>
+    <button class="my-btn2" (click)="buttonClearList()">Clear List</button>
+  </div>
+  <div class="names">
+    <p *ngFor="let person of nameList" id="ngfor">{{ person | uppercase }}</p>
+  </div>
+</div>

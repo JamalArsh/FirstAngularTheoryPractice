@@ -1,0 +1,14 @@
+<div class="card" *ngFor="let people of peoples">
+  <h4 id="id" *ngIf="people.id > 3">{{ people.id }}</h4>
+  <h3 id="name">{{ people.name }}</h3>
+  <p
+    id="gender"
+    [ngStyle]="
+      people.gender === 'female'
+        ? { 'background-color': 'aqua' }
+        : { 'background-color': 'gold' }
+    "
+  >
+    {{ people.gender }}
+  </p>
+</div>

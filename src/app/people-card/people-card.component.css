@@ -1,0 +1,13 @@
+.card {
+  border-radius: 10px;
+  padding: 0;
+  text-align: center;
+  color: white;
+  background-color: deeppink;
+  /* height: 7rem; */
+  width: 5rem;
+}
+
+body {
+  min-width: 450px;
+}

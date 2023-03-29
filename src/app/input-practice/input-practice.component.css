@@ -1,0 +1,103 @@
+.main {
+  max-width: 600px;
+  width: 70%;
+  margin: 1rem auto;
+  background-color: #d1fff3;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+}
+
+label {
+  margin: 0.5rem auto;
+}
+input {
+  width: 50%;
+  height: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid green;
+  transition: all 0.2s;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-right: 0;
+}
+
+.btn-clear {
+  height: auto;
+  width: 50px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  border: 1px solid green;
+  /* font-weight: bolder; */
+  font-size: larger;
+  /* border-left: 0; */
+}
+
+input:focus {
+  box-shadow: 0 0 10px 5px aqua;
+
+  border: 1px solid blue;
+  outline: none;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  row-gap: 10px;
+}
+
+.input-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+}
+
+.my-btn {
+  min-width: 200px;
+  width: 40%;
+  height: 40px;
+  font-size: large;
+  background-color: deeppink;
+  border: 1px solid deeppink;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.2s;
+}
+
+.my-btn:hover {
+  background-color: white;
+  color: deeppink;
+}
+
+.my-btn2 {
+  min-width: 200px;
+  width: 40%;
+  height: 40px;
+  font-size: large;
+  background-color: crimson;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.2s;
+}
+.my-btn2:hover {
+  background-color: white;
+  color: crimson;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
